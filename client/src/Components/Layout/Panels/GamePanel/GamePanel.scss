@@ -1,0 +1,18 @@
+.game-panel {
+  height: 100%;
+  max-height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__controls {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+
+    & button {
+      padding: 1rem 0rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.panel {
+  position: relative;
+  flex-basis: 25%;
+  border-right: 2px solid #eaeaea;
+
+  &__controls {
+    height: 2rem;
+  }
+
+  &__contents {
+    position: fixed;
+    width: calc(25% - 1rem);
+    top: 0px;
+    bottom: 0px;
+    padding: 0.5rem;
+  }
+}

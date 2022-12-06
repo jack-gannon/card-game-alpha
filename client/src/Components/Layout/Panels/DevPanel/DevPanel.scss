@@ -1,0 +1,12 @@
+.dev-panel {
+  background-color: #333;
+  height: 100%;
+  max-height: calc(100vh - 4rem);
+  padding: 0.5rem;
+  color: #eaeaea;
+  font-family: monospace;
+
+  &__label {
+    font-weight: 500;
+  }
+}
